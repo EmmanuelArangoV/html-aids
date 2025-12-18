@@ -1,0 +1,72 @@
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Class Selector */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ID Selector */
+#main-heading {
+    text-align: center;
+}
+
+/* Combined Selector */
+div.container p {
+    color: red;
+}
+
+/* Box Model, Apply the rules in every div element */
+div {
+    width: 300px;
+    padding: 10px; /* Space inside the box */
+    border: 1px solid black; /* Border around the box */
+    margin: 10px; /* Space outside the box */
+}
+
+/* Colors and backgrounds */
+
+body {
+    background-color: #eee;
+}
+
+h1 {
+    color: #222;
+    background-color: #ddd;
+}
+
+div {
+    background-image:  url('https://picsum.photos/200/300');
+    background-size: cover; /* Resize the image to fit the div */
+}
+
+/* Display */
+
+div {
+    display: block; /* Occupies the whole line */
+}
+
+div {
+    display: inline; /* Occupies only the space it needs */
+}
+
+div {
+    display: inline-block; /* Occupies the whole line, but can have a width and height */
+}
+
+/* Position */
+.absolute-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 0;
+}

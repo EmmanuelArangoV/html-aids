@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles/portfolio-styles.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Arango. Welcome to my portfolio!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>Who I am and what I like</h2>
+            <p id="description-">I am a passionate and curious student currently pursuing two academic paths: Computer Engineering and Graphic Design. I love solving problems with both logic and creativity.
+                I’ve completed the IBM Data Engineering program, where I developed practical skills in databases, Python, data pipelines, and cloud technologies.
+                I have an intermediate-advanced (B2) level of English, which allows me to communicate effectively and work in international and remote environments.
+                Although I’m just starting my career, I’m highly motivated to grow professionally. I'm looking for opportunities where I can contribute to real-world projects, especially those that combine technology and design.
+                🔧 Interests: Data Engineering, Backend Development, UI/UX Design, Visual Communication, and Creative Coding.
+                🌍 Open to remote work, internships, and global.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Some of my projects</h2>
+            <ul>
+                <li><a href="pets.html"><button type="button">Pet Project</button></a></li>
+                <li><a href="https://github.com/EmmanuelArangoV" target="_blank"><button type="button">My GitHub</button></a></li>
+            </ul>
+        </section>
+        <section id="contact-me">
+            <h2>Get in touch</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required placeholder="Enter your name">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required placeholder="Enter your email">
+
+                <label for="message">Why are you contacting me?</label>
+                <select id="message" name="message" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="project-collaboration">Project collaboration</option>
+                    <option value="job-opportunity">Job opportunity</option>
+                    <option value="general-inquiry">General inquiry</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
